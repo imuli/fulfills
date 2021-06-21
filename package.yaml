@@ -1,0 +1,22 @@
+name: fulfills
+version: 0.1.0
+synopsis: Existential types fulfilling constraints.
+maintainer: Imuli <i@imu.li>
+github: imuli/fulfills
+license-file: UNLICENSE
+license: PublicDomain
+category: Constraints
+extra-source-files:
+  - CHANGELOG.md
+description: |
+  fulfills provides existential types which contain values and constraints fufilled on them.
+
+  It also provides various helpers to combine constraints.
+
+ghc-options: -Wall
+
+dependencies:
+  - base >= 4.5 && < 5.0
+
+library:
+  source-dirs: src
